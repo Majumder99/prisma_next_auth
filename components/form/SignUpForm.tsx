@@ -58,7 +58,7 @@ const SignUpForm = () => {
       }),
     });
     if (res.ok) {
-      route.push("/auth/sign-in");
+      route.push("/sign-in");
     } else {
       console.error("Failed to sign up");
     }
